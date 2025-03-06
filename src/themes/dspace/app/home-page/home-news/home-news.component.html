@@ -1,0 +1,45 @@
+<div class="background-image-container mt-ncs">
+  <div class="container">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="d-flex flex-wrap">
+        <div>
+          <h1 class="display-3">CIFOR - ICRAF Repository</h1>
+          <p class="lead">
+            The CIFOR-ICRAF DSpace repository is a comprehensive digital archive
+            that houses a vast collection of research data and publications
+            related to forestry, agroforestry, and sustainable land management.
+            This platform is designed to facilitate access to valuable
+            scientific information, supporting researchers, policymakers, and
+            practitioners in their efforts to address global environmental
+            challenges. Users can explore publications, reports, and other
+            resources that contribute to the understanding and preservation of
+            forests and landscapes worldwide.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <picture class="background-image">
+    <source
+      type="image/webp"
+      srcset="
+        assets/dspace/images/cifor.webp 2000w,
+        assets/dspace/images/cifor.webp 1200w,
+        assets/dspace/images/cifor.webp  768w
+      "
+    />
+    <source
+      type="image/jpg"
+      srcset="
+        assets/dspace/images/cifor.jpg 2000w,
+        assets/dspace/images/cifor.jpg 1200w,
+        assets/dspace/images/cifor.jpg  768w
+      "
+    />
+    <img
+      alt="nepal"
+      [src]="'assets/dspace/images/cifor.jpg'"
+    /><!-- without the []="''" Firefox downloads both the fallback and the resolved image -->
+  </picture>
+  <!-- <small class="credits">Photo by <a href="https://www.pexels.com/@inspiredimages">@inspiredimages</a></small> -->
+</div>
